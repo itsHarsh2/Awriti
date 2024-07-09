@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+.header {
+   width:84%;
+   height: 97vh;
+   /* background-image: url(image/hadder\ image.jpg); */
+   padding: 20px 8%;
+   background-size: cover;
+   background-position: center;
+   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/hadder\ image.jpg);
+   
+}
+.header img{
+    width: 10vw;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+    nav button{
+        background-color: red;
+        color: white;
+        border-radius: 4px;
+        padding: 7px;
+        margin-left: 10px;
+    }
+   .btn{
+    background: transparent;
+    border: 1px solid white;
+   
+   }
+   .btn img{
+     width: 1vw;
+   }
+   .content{
+    text-align: center;
+    margin-top: 17%;
+   
+   }
+   .content h1{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 70px;
+    margin-bottom: 15px;
+   }
+
+   .content h3{
+    /* font-weight: 100px; */
+    margin-bottom: 25px;
+    font-size: 30px;
+   }
+   .content p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+   }
+
+   .email input{
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-left: 20px;
+    padding: 14px;
+   padding-right: 300px;
+   color: white;
+   }
+   
+   .email button{
+    background-color: red;
+    color: white;
+    padding: 14px;
+    border-radius: 5px;
+   }
+    
+   .features{
+    height: 50vh;
+    width: 80%;
+    padding-left: 10%;
+    padding-right:  10%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    display: flex;
+    align-items: center;
+   }
+   
+   .row img{
+    width: 40vw;
+   }
+
+   .lines{
+    text-align: left;
+   }
+   .lines h2{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 13px;
+   }
+   .lines p{
+    font-size: 23px;
+    font-weight: 300;
+   }
+
+   .features2{
+    height: 50vh;
+    width: 80%;
+    padding-left: 10%;
+    padding-right:  10%;
+    padding-top: 7%;
+    padding-bottom: 5%;
+    display: flex;
+    align-items: center;
+    
+   }
+   .features2 img{
+    width: 30vw;
+    height: 60vh;
+   }
+   .lines2{
+    padding-left: 6%;
+    padding-bottom: 70px;
+   }
+   .lines2 h2{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 13px;
+   }
+   
+   .lines2 p{
+    font-size: 23px;
+    font-weight: 300;
+   }
+
+   .features3{
+    height: 50vh;
+    width: 80%;
+    padding-left: 10%;
+    padding-right:  10%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    display: flex;
+    align-items: center;
+   }
+   
+   .row3 img{
+    width: 40vw;
+    padding-left: 87px;
+   }
+
+   .lines3{
+    text-align: left;
+   }
+   .lines3 h2{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 13px;
+   }
+   .lines3 p{
+    font-size: 24px;
+    font-weight: 300;
+   }
+
+   .features4{
+    height: 50vh;
+    width: 80%;
+    padding-left: 10%;
+    padding-right:  10%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    display: flex;
+    align-items: center;
+   }
+   
+   .row4 img{
+    width: 40vw;
+    
+   }
+
+   .lines4{
+    text-align: left;
+   }
+   .lines4 h2{
+    font-size: 47px;
+    font-weight: 900;
+    margin-bottom: 13px;
+   }
+   .lines4 p{
+    font-size: 24px;
+    font-weight: 300;
+   }
+   .info{
+    text-align: center;
+   }
+   .info h1{
+    padding: 70px 0px 20px 0px;
+    font-size: 50px;
+   }
+   .according{
+    margin: 6px auto;
+    width: 100%;
+    max-width: 70vw;
+   }
+   .according li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+   }
+   .according li label{
+    font-size: 30px;
+    /* padding: 26px; */
+    font-weight: 2;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgba(112, 108, 108, 0.671);
+    position: relative;
+    padding: 15px;
+   }
+   label::after{
+    content: '+';
+    align-items: end;
+    position: absolute;
+    right: 20px;
+    
+   }
+
+   input[type="radio"]{
+    display: none;
+   }
+   .according .contents{
+    max-height: 0;
+    overflow: hidden;
+   }
+   .according input[type="radio"] :checked + label+ .contents{
+    max-height: 600px;
+    padding: 30px 20px;
+   }

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+ color: azure;
+}
+
+body{
+    background-color:#565a60 ;
+    text-align: center;
+}
+
+.container{
+       height: 70vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.3vmin;
+    justify-content: center;
+   
+}
+    
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 6vmin;
+    color: cadetblue;
+    border-radius: 6px;
+    background-color: azure;
+
+}
+
+.hide{
+    display: none;
+}
+
+#reset{
+    height: 7vmin;
+    width: 13vmin;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 6px;
+}
